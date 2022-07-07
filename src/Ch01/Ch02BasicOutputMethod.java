@@ -76,7 +76,7 @@ public class Ch02BasicOutputMethod {
 	    System.out.printf("%d  %s  %s  %d\n", 1010, "DoITJAVA", "00미디어", 29000);
 	    System.out.printf("%d  %s%c  %s  %d\n", 2020, "윤성우",'C', "오렌지미디어", 25000);
 	
-	  
+	    System.out.println("GitHub Test");
 	}
 
 }
