@@ -15,10 +15,11 @@ public class C04실수 {
 		//현재는 부동 소수점 방식을 사용
 		//키워드 : 단정밀도, 매정밀도
 		
-	//리터럴 접미사 X 실수 기본자료형 double(8byte)
+	//리터럴 접미사 X(없음) 실수 기본자료형 double(8byte)
 	//리터럴 접미사 f : float형(4byte)
 		
     System.out.println(123.12345678987654321F);
+    //실수를 float형으로 출력
     
 		
 
