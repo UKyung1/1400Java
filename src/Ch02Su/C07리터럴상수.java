@@ -19,8 +19,8 @@ public class C07리터럴상수 {
 //		 byte num1=(byte)129; 
 //       long num2=123L; long 8바이트니까 값을 8바이트로 출력하겠다는 건가?
 //       double num3=123.456;
-//		 float num4=123.456F;	
-//		 System.out.println(num1);
+		 float num4=123.456F;	
+		 System.out.println(num4);
 		 
 	    //예제 2
 
