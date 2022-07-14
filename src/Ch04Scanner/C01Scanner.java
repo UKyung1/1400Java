@@ -22,7 +22,8 @@ public class C01Scanner {
 		int num1= sc.nextInt();
 		//sc스캐너객체의 정수값 하나를 받아 num1공간에 초기화
 		System.out.print("두번째 : ");
-		int num2= sc.nextInt();
+		int
+2= sc.nextInt();
 		
 		System.out.print("세번째 : ");
 		int num3= sc.nextInt();

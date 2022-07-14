@@ -19,16 +19,15 @@ public class C03Scanner {
 //	    System.out.println("확인 : " + num2);
 //	    
 //		//문자열(띄어쓰기X )
-//	    System.out.printf("문자열(띄어쓰기X) : ");
-//	    String str1 = sc.next();
-//	    System.out.println("확인 : " + str1);
+	    System.out.printf("문자열(띄어쓰기X) : ");
+	    String str1 = sc.next();
+	    System.out.println("확인 : " + str1);
 	    
 	    //문자열(띄어쓰기O)
-	    System.out.printf("문자열(띄어쓰기O) : ");
-	    String str2 = sc.nextLine();
-	    
-	    System.out.println("확인 : " + str2);
-	    
+//	    System.out.printf("문자열(띄어쓰기O) : ");
+//	    String str2 = sc.nextLine();    
+//	    System.out.println("확인 : " + str2);
+//	    
 	    
 	    
 

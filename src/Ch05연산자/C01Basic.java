@@ -70,10 +70,10 @@ public class C01Basic {
 		//전치연산자 : ++a, --a //1증가, 1감소 변수안의 값을 먼저 증가(or감소) 후 다른 연산처리
 		//후치연산자 : a++, a-- //1증가, 1감소 다른 연산처리 먼저 한 다음 1증가(or감소)
 		
-//		int a=10, b=20, c,d;
-//		c=--a + b--;
-//		d=a-- + --b;
-//		System.out.printf("%d %d %d %d\n", a,b,c,d);
+		int a=10, b=20, c,d;
+		c=--a + b--;
+		d=a-- + --b;
+		System.out.printf("%d %d %d %d\n", a,b,c,d);
 		
 		//삼항연산자(if문로 대체가능, 단순구조의 분기문)
 //		int score =86;
@@ -88,9 +88,15 @@ public class C01Basic {
 //		
 		//문제
 		//두 수를 입력받아 큰 수를 출력하세요
-		
-     
-	
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("1. 정수 : " );
+//        int n1 = sc.nextInt();
+//        System.out.print("2. 정수 : " );
+//        int n2 = sc.nextInt();
+//        
+//        int result=(n1>n2)?n1:n2;
+//        System.out.println("큰수 : "+result);
+//	
 	}
 
 }
