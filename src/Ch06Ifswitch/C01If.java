@@ -194,4 +194,57 @@ public class C01If {
 	   //70점 이상이면 'C'
 	   //60점 이상이면 'D'
 	   //60점 미만이면 'F'출력
+	   
+	   Scanner sc=new Scanner(System.in);
+	   int avg=sc.nextInt();
+	   
+	   if(avg>=90)
+	   {
+		   System.out.println("A");
+	   }
+	   else if(num>=80)
+	   {
+		   System.out.println("B");
+	   }
+	   else if(num>=70)
+	   {
+		   System.out.println("c");
+		   }
+	   else if(num>=60)
+	   {
+		   System.out.println("D");
+	   }
+	   else
+	   {
+		   System.out.println("F");
+	   }
+	   
+	   //문제 
+	   //세 정수를 입력 받아서 큰 수를 출력(단순 if문으로만)
+	   Scanner sc=new Scanner(System.in);
+	   System.out.print("세 정수 입력: ");
+	   int n1=sc.nextInt();
+	   int n2=sc.nextInt();
+	   int n3=sc.nextInt();
+	   
+	   if(n1>=n2 && n1>=n3)//1이 가장 큰 경우
+	   {
+		   System.out.println("큰 수: "+n1);
+	   }
+	   else if (n2>=n1 && n2>=n3)
+	   {
+		   System.out.println("큰 수: "+n2);
+	   }
+	   else if (n3>=n1 && n3>=n2)
+	   {
+		   System.out.println("큰 수: "+n3);
+	   }
+
+
+
+
+
+
+
 }
+
