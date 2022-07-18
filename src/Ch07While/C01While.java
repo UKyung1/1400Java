@@ -45,6 +45,7 @@ public class C01While {
 //		while(i<=N)
 //		{System.out.println("i="+i);
 //		sum=sum+i;
+		
 //		i++;}
 //		System.out.printf("1부터 %d까지의 합: %d\n", N,sum);
 		
