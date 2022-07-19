@@ -180,25 +180,25 @@ public class C02WhileWhile {
 //		0-1     0-2
 //		0-2     0-0
 		
-		int i=0;
-		int j=0;
-	    int k=6;
-		while(i<4)
-		{j=0;
-		while(j<=i-1)
-		{System.out.print(" ");
-		j++;		
-		}
-		k=6;
-		while(k<=3*2-i)
-		{System.out.print("*");
-		k--;
-		}
-		System.out.println();
-		i++;
-		
-		}
-		
+//		int i=0;
+//		int j=0;
+//	    int k=6;
+//		while(i<4)
+//		{j=0;
+//		while(j<=i-1)
+//		{System.out.print(" ");
+//		j++;		
+//		}
+//		k=6;
+//		while(k<=3*2-i)
+//		{System.out.print("*");
+//		k--;
+//		}
+//		System.out.println();
+//		i++;
+//		
+//		}
+//		
 		
 	   //문제
 		//다이아몬드모양출력
@@ -220,12 +220,50 @@ public class C02WhileWhile {
 	    //  ***
 		//   *
 		
+//		j(공백)    k(별)
+//	0	0-2       0-0
+//	1	0-1       0-2
+//	2   0-0       0-4
+//	3	          0-6
+//-----------------------------		          
+//	4	0-0       0-4
+//	5	0-1       0-2
+//	6	0-2       0-0 
+//		j=0       k=0
+//		j++       k++
+//		j<=?      k<=?
+				
 	    int i=0;
-	    int j=2;
+	    int j=0;
 	    int k=0;
 	    while(i<7)
-	    {i=0;
-	    
+	    {if(i<=3)
+	    {j=0; //공백
+	    while(j<=2-i)
+	     {System.out.print("");
+	      j++;  
+	    }
+	     k=0;//별
+	     while(k<=2*i) 
+	     {System.out.println("*");
+	     k++;
+	     }
+	     else
+	     {j=0;
+	     while(j<=i-4)
+	     {System.out.print("");
+	     j++;
+	     }
+	     k=0;
+	     while(k<=6*2-(2*i))
+	     {System.out.print("*");
+	     k++;
+	     }
+	     }
+	    	System.out.println();
+	        i++;
+	    }
+	    }
 }
 }
 
